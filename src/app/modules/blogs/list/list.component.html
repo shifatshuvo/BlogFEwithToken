@@ -1,0 +1,8 @@
+<div class="flex">
+  <div *ngFor="let blog of blogs" class="w-96 shadow-lg border p-2 m-2">
+    <a [routerLink]="blog.slug" class="w-96">
+      <h2>{{blog.title}}</h2>
+    </a>
+  </div>
+</div>
+

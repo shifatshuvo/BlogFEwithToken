@@ -1,0 +1,8 @@
+<input type="text" [value]="blog?.title" class="border m-2 p-2">
+<br>
+<textarea class="border p-3 m-2">
+{{blog?.content}}
+</textarea>
+
+<br>
+<button (click)="update()" class="border p-2 ml-2">Update</button>
